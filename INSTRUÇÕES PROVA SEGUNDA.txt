@@ -1,0 +1,66 @@
+
+*Crie um repositorio no github*
+
+*Crie uma pasta local*
+
+*va ate a pasta pelo cmd e crie uma solução:*  
+
+- dotnet new sln --output Solucao
+
+
+*entre na solução e crie um projeto*
+
+- dotnet new webapi --name Projeto -f net8.0
+
+
+*adicione um projeto na solução*
+
+- dotnet sln add Projeto
+
+
+*se identifique para o github:*
+
+- git config --global user.name "John Doe" 
+- git config --global user.email "johndoe@example.com"
+
+
+*Fora da solução (dentro da pasta criada localmente) crie um repositorio:*
+
+- git init
+
+
+*Configurar repositório remoto:*
+
+- git remote add origin (LINK DO REPOSITORIO)
+
+
+*trocar o usuário que já está autenticado:*
+ 
+- git config credential.username "username"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
