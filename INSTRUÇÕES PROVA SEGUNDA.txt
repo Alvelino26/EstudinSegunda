@@ -36,8 +36,23 @@
 
 *trocar o usuário que já está autenticado:*
  
-- git config credential.username "username"
+- git config credential.username "Alvelino26"
 
+
+
+	PARA MUDAR A BRANCH PARA MAIN
+
+Verifique as branches existentes:
+
+git branch
+
+Renomeie a branch master para main: Se deseja que a branch principal se chame main, use:
+
+git branch -m master main
+
+Configure o upstream para main: Depois de renomear a branch, faça o push com o comando:
+
+git push --set-upstream origin main
 
 
 
