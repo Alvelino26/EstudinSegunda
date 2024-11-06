@@ -1,4 +1,6 @@
 
+		CRIANDO TUDO PRIMEIRO
+
 *Crie um repositorio no github*
 
 *Crie uma pasta local*
@@ -40,7 +42,7 @@
 
 
 
-	PARA MUDAR A BRANCH PARA MAIN
+	PARA MUDAR A BRANCH PARA MAIN (é para funcionar)
 
 Verifique as branches existentes:
 
@@ -53,6 +55,18 @@ git branch -m master main
 Configure o upstream para main: Depois de renomear a branch, faça o push com o comando:
 
 git push --set-upstream origin main
+
+Adicione as mudanças ao stage:
+
+git add .
+
+Faça o commit:
+
+git commit -m "Salvando mudanças antes do pull"
+
+Depois disso, você pode tentar o git pull novamente:
+
+git pull origin main --rebase
 
 
 
